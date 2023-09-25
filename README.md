@@ -27,3 +27,5 @@ move: This command must be used with a direction north, south, east, or west (ex
 pick: This will pick up any items near you in the room/cavern you are currently in
 attack: This will attack any monsters in the room/cavern you are currently in. An attack is succesful if you have the tools required, ortherwise you die and the game ends.
 exit: This command will exit the game and return you to the command line or terminal.
+
+![alt text](https://github.com/[yahialqur]/[GeraltofRivia-Minigame]/blob/[main]/GeraltMinigame.png?raw=true)
