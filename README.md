@@ -29,3 +29,6 @@ attack: This will attack any monsters in the room/cavern you are currently in. A
 exit: This command will exit the game and return you to the command line or terminal.
 
 ![Screenshot](GeraltMinigame.png)
+
+![Screenshot](GeraltScreenshot1.png)
+![Screenshot](GeraltScreenshot2.png)
