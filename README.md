@@ -28,4 +28,4 @@ pick: This will pick up any items near you in the room/cavern you are currently 
 attack: This will attack any monsters in the room/cavern you are currently in. An attack is succesful if you have the tools required, ortherwise you die and the game ends.
 exit: This command will exit the game and return you to the command line or terminal.
 
-
+![Screenshot](GeraltMinigame.png)
