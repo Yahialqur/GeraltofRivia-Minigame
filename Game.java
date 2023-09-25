@@ -399,22 +399,22 @@ public class Game {
 	//Prints what is in the inventory
 	void inventoryDescription() {
 		if(swordPicked == true && potionPicked == false && bladeOilPicked == false) {
-			System.out.println(ANSI_BLACK + "\nCurrent Inventory: Silver Sword" + ANSI_RESET);
+			System.out.println(ANSI_BLUE + "\nCurrent Inventory: Silver Sword" + ANSI_RESET);
 		}
 		if(swordPicked == true && potionPicked == true && bladeOilPicked == false) {
-			System.out.println(ANSI_BLACK + "\nCurrent Inventory: Silver Sword, Cat Potion" + ANSI_RESET);
+			System.out.println(ANSI_BLUE + "\nCurrent Inventory: Silver Sword, Cat Potion" + ANSI_RESET);
 		}
 		if(swordPicked == true && potionPicked == true && bladeOilPicked == true) {
-			System.out.println(ANSI_BLACK + "\nCurrent Inventory: Silver Sword, Cat Potion, Vampire Blade Oil" + ANSI_RESET);
+			System.out.println(ANSI_BLUE + "\nCurrent Inventory: Silver Sword, Cat Potion, Vampire Blade Oil" + ANSI_RESET);
 		}
 		if(swordPicked == false && potionPicked == true && bladeOilPicked == false) {
-			System.out.println(ANSI_BLACK + "\nCurrent Inventory: Cat Potion" + ANSI_RESET);
+			System.out.println(ANSI_BLUE + "\nCurrent Inventory: Cat Potion" + ANSI_RESET);
 		}
 		if(swordPicked == false && potionPicked == true && bladeOilPicked == true) {
-			System.out.println(ANSI_BLACK + "\nCurrent Inventory: Cat Potion, Vampire Blade Oil" + ANSI_RESET);
+			System.out.println(ANSI_BLUE + "\nCurrent Inventory: Cat Potion, Vampire Blade Oil" + ANSI_RESET);
 		}
 		if(swordPicked == false && potionPicked == false && bladeOilPicked == true) {
-			System.out.println(ANSI_BLACK + "\nCurrent Inventory: Vampire Blade Oil" + ANSI_RESET);
+			System.out.println(ANSI_BLUE + "\nCurrent Inventory: Vampire Blade Oil" + ANSI_RESET);
 		}
 	}
 	
