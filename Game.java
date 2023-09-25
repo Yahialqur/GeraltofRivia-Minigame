@@ -117,7 +117,7 @@ public class Game {
 			exit();
 		}
 		if(isAlive == false) {
-			System.out.println(ANSI_BLACK + "Word spread of the great Geral of Rivia's death.");
+			System.out.println(ANSI_BLUE + "Word spread of the great Geral of Rivia's death.");
 			System.out.println("No one ever dared to enter the cave after your death, not even another witcher");
 			System.out.println("The village relocated after hearing news of your death" + ANSI_RESET);
 			exit();
