@@ -1,6 +1,7 @@
 # GeraltofRivia-Minigame
 
 A text based minigame I made as a personal project.
+The game was written in java using the eclipse IDE.
 
 ## How to Run the Game:
 ### On windows PC:
