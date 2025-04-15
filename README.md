@@ -1,33 +1,90 @@
-# GeraltofRivia-Minigame
+# 🧝‍♂️ Geralt of Rivia – Minigame
 
-A text based minigame I made as a personal project.
-The game was written in java using the eclipse IDE.
+A text-based adventure game inspired by *The Witcher* universe, where you play as Geralt of Rivia and fight to clear a monster-infested cave.
 
-## How to Run the Game:
-### On windows PC:
-Download the Geralt.jar file.
-Once this file is downloaded open the command line. This can be done by going in the search and typing terminal.
-Once in the command line type the following, "java -jar <Path>. Note that <Path> is the path to the Geralt.jar file, you can either write the path or drag and drop the file into the command line which will print the path automatically.
-Then start the game by hitting enter. Note that Java 17 or newer must be installed on the computer to run.
+---
 
-### On MacOS:
-Download the Geralt.jar file.
-Once this file is downloaded open the terminal. This can be done by going in the search and typing cmd.
-Once in the terminal type the following, "java -jar <Path>. Note that <Path> is the path to the Geralt.jar file, you can either write the path or drag and drop the file into the command line which will print the path automatically.
-Then start the game by hitting enter. Note that Java 17 or newer must be installed on the computer to run.
+## 🕹️ Gameplay Overview
 
-*If for any reason you have troble with the above method, download or copy the java files into eclipse or another IDE and run that way.
+You awaken outside a mysterious cave, only to discover your essential tools are missing.  
+Traverse through 9 interconnected caverns, retrieve your gear, and defeat the three monsters lurking inside:
 
-## Description
-The minigame is inspired by the Witcher videogames. In the minigame you play as Geralt of Rivia, and you are tasked with clearing a nearby cave of all monsters. This cave has 9 caverns in total, and the game begins with you in cavern 0. You must traverse the caverns to find your tools and attack the monsters. 
-There are 3 monsters in total. The rock troll can be killed with just a sword in your inventory. For defeating the ghouls, you must have the swords and potion in your inventory. To defeat the Katakan, you must have the sword, potion, and vampire blade oil. After defeating all monsters the game ends and you win.
+- **Rock Troll** – Defeat with your silver sword  
+- **Ghouls** – Require sword + cat potion  
+- **Katakan** – Requires sword + potion + vampire blade oil  
 
-### There are 5 commands:
-look: Typing this will print a description of the room you are currently in. It will also print your inventory and any paths you can take.
-move: This command must be used with a direction north, south, east, or west (ex. move south). This will move you to the next cavern if there is a path available. Paths can be seen with the look command.
-pick: This will pick up any items near you in the room/cavern you are currently in
-attack: This will attack any monsters in the room/cavern you are currently in. An attack is succesful if you have the tools required, ortherwise you die and the game ends.
-exit: This command will exit the game and return you to the command line or terminal.
+Use your wits and tools wisely—your survival depends on it.
+
+---
+
+## 🎮 Commands
+
+- `look` – Get a room description, your inventory, and available paths  
+- `move [direction]` – Move in a direction (e.g., `move north`)  
+- `pick` – Pick up items if available in the current cavern  
+- `attack` – Attack any monsters in the current cavern  
+- `exit` – Exit the game
+
+---
+
+## 💻 How to Run the Game
+
+### ✅ Requirements
+
+- Java 17 or newer  
+- `.jar` file **OR** Java-compatible IDE (like Eclipse)
+
+---
+
+### ▶️ Run via Terminal
+
+#### **Windows**
+1. Download `Geralt.jar`
+2. Open **Command Prompt**
+3. Run:
+   ```sh
+   java -jar path\to\Geralt.jar
+
+#### **MacOS**
+1. Download `Geralt.jar`
+2. Open **Terminal**
+3. Run:
+   ```sh
+   java -jar /path/to/Geralt.jar
+
+💡 *You can drag and drop the `.jar` into the terminal to automatically paste the full file path.*
+
+---
+
+### 🧪 Alternate Method (For Troubleshooting)
+
+If the `.jar` file doesn’t run correctly, you can:
+1. Download or clone the source code files (`Main.java`, `Game.java`, `Cavern.java`)
+2. Open them in a Java IDE like Eclipse or IntelliJ
+3. Run `Main.java` to launch the game
+
+---
+
+## 🧠 Tech Stack
+
+- Java 17+
+- Eclipse IDE (used for development)
+
+---
+
+## 📖 Story Intro (Displayed In-Game)
+
+> *"You are Geralt of Rivia, a witcher hired to clear a cave near a troubled village. After resting near the entrance, you awaken to find your weapons and potions missing. Using your witcher senses, you enter the cave to retrieve them…"*
+
+---
+
+## 👤 Author
+
+Created by Yahia Alqurnawi as a personal project inspired by the *Witcher* novels and video game series.
+
+---
+
+## 📸 Screenshots
 
 ![Screenshot](GeraltMinigame.png)
 
